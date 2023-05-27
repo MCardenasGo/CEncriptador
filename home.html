@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title> Challenge ONE - Encriptador </title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="encriptador-style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        
+        <header>
+                <img class="logo" src="imagenes-encriptador/Logo.png">
+        </header>
+
+        <main>
+            <section class="cuadroTexto">
+                <textarea class="texto" cols="40" rows="10" placeholder="Ingrese el texto a encriptar o desencriptar"></textarea>
+                <div>
+                    <h6 id="condicion"> ⚠ Solo uso de minúsculas y sin acentos</h6>
+                </div>
+                
+                <div class="botones">
+                    <button class="botonEncriptar"> Encriptar </button>
+                    <button class="botonDesencriptar"> Desencriptar </button>
+                </div>
+            </section>
+
+            <section>
+                <textarea class="mensajeResultado" cols="20" rows="10" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <div>
+                    <button class="copiar">Copiar</button>
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer class="creditos">
+            <p> Diseñado por: Manuel Cardenas </p>
+            <p> Agradecimientos especiales a: Oracle y Alura Latam </p>
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
